@@ -14,13 +14,9 @@
 
 
 
-.content{
-    height: 100vh;
-    width: 100%;
-}
 
 
-.left-side-content{
+.rocket-left-side-content{
     height: 100vh;
     width: 100%;
     background-image: url("../images/rocket-launcher.jpg");
@@ -29,7 +25,7 @@
     background-size: cover;
 }
 
-.left-side-content h1{
+.rocket-left-side-content h1{
     color: #ffffff;
     font-weight:700;
     padding-top: 80px;
@@ -40,22 +36,22 @@
     display: flex;
     align-items: center;
 }
-.timer{
+.rocket-timer{
     padding-bottom: 15px;
 }
-.days-counter strong,
-.hours-counter strong,
-.minutes-counter strong,
-.seconds-counter strong{
+.rocket-days-counter strong,
+.rocket-hours-counter strong,
+.rocket-minutes-counter strong,
+.rocket-seconds-counter strong{
     font-size: 100px;
     font-weight: 900;
     color: #282A51;
     line-height: 106px;
 }
-.days-counter small,
-.hours-counter small,
-.minutes-counter small,
-.seconds-counter small{
+.rocket-days-counter small,
+.rocket-hours-counter small,
+.rocket-minutes-counter small,
+.rocket-seconds-counter small{
     font-size: 15px;
     font-weight: 700;
     color: #bfbfbf;
@@ -65,17 +61,17 @@
 
 
 
-.message,
-.subscription-form{
+.rocket-message,
+.rocket-subscription-form{
     padding: 15px 0;
 }
-.message h1{
+.rocket-message h1{
     font-size: 50px;
     font-weight: 900;
     color: #282A51;
     line-height: 56px;
 }
-.message p{
+.rocket-message p{
     font-size: 15px;
     font-weight: 400;
 }
@@ -92,6 +88,14 @@
 .rocket-form-submit-button button{
     height: 75px;
     border-radius: 0px 50px 50px 0px;
+    background-color: #47C4E5;
+    color: #282A51;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.rocket-form-submit-button button:hover{
+    background-color: #282A51
 }
 
 
