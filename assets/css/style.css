@@ -1,0 +1,124 @@
+/*
+   
+    Template Name : Rocket Comming Soon Template
+    Author : w3devzone team
+    Website : http://www.w3devzone.com/
+    Support : http://www.w3devzone.com/support/
+	
+	
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+
+
+.content{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.left-side-content{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/rocket-launcher.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-side-content h1{
+    color: #ffffff;
+    font-weight:700;
+    padding-top: 80px;
+}
+
+.rocket-right-side{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.timer{
+    padding-bottom: 15px;
+}
+.days-counter strong,
+.hours-counter strong,
+.minutes-counter strong,
+.seconds-counter strong{
+    font-size: 100px;
+    font-weight: 900;
+    color: #282A51;
+    line-height: 106px;
+}
+.days-counter small,
+.hours-counter small,
+.minutes-counter small,
+.seconds-counter small{
+    font-size: 15px;
+    font-weight: 700;
+    color: #bfbfbf;
+}
+
+
+
+
+
+.message,
+.subscription-form{
+    padding: 15px 0;
+}
+.message h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #282A51;
+    line-height: 56px;
+}
+.message p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.rocket-email-input-box{
+    padding: 0px;
+}
+.rocket-email-input-box input{
+    height: 75px;
+    border-radius: 50px 0px 0px 50px;
+}
+.rocket-form-submit-button button{
+    height: 75px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+
+
+
+
+.rocket-right-side-footer{
+    background-color: #282A51;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.rocket-copyright{
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+}
+.rocket-social-links ul{
+    display: flex;
+    padding-left: 100px;
+}
+.rocket-social-links ul li{
+    list-style: none;
+}
+.rocket-social-links ul li a{
+    padding: 10px;
+    font-size: 20px;
+    color: #bfbfbf;
+}
